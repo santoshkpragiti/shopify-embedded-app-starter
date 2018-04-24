@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { SettingToggle, TextStyle } from '@shopify/polaris'
-import withReact from 'tynker-state-withReact'
+import withReact from 'tynker-state--withReact'
 import app from '../../state'
 
 const Settings = ({ app: { state: { settings: { enabled } }, saveSettings } }) => (
