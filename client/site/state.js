@@ -1,4 +1,4 @@
-import State from 'tynker-state';
+import State from 'tynker';
 import axios from 'axios';
 
 class App extends State {

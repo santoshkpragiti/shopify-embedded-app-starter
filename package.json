@@ -7,7 +7,7 @@
     "build": "rimraf ./assets && cross-env NODE_ENV=production webpack --config ./config/webpack.js"
   },
   "author": "Paul Pomerleau <paul@thynkstudios.ca> (https://github.com/pmpomerleau)",
-  "license": "GNU GPLv3",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@shopify/polaris": "^1.12.2",
     "axios": "^0.18.0",
@@ -25,8 +25,8 @@
     "react-livechat": "^1.0.22",
     "shopify-api-node": "^2.11.0",
     "throng": "^4.0.0",
-    "tynker-state": "git+https://github.com/pmpomerleau/tynker-state.git",
-    "tynker-state--withReact": "git+https://github.com/pmpomerleau/tynker-state--withReact.git"
+    "tynker": "git+https://github.com/pmpomerleau/tynker.git",
+    "tynker-util-reactWithNodes": "git+https://github.com/pmpomerleau/tynker-util-reactWithNodes.git"
   },
   "devDependencies": {
     "autoprefixer": "^8.1.0",
