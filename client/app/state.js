@@ -2,7 +2,7 @@ import Node from 'tynker'
 import axios from 'axios'
 
 class App extends Node {
-  static _type = 'Node'
+  static _type = 'App'
 
   static _node = {
     props: [],
